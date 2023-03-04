@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/27 11:05:34.000.365,=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 11:06:50.000.100,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitPrincipal.dfm=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/02/27 11:06:50.000.100,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitPrincipal.pas=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 11:06:55.000.572,=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/02/27 11:08:21.000.425,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Clinica.dproj=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/02/27 11:19:49.000.113,=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/02/27 11:20:14.000.919,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit2.pas=</Transaction>
+    <Transaction>2023/02/27 11:20:39.000.633,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadPaciente.pas=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit3.pas</Transaction>
+    <Transaction>2023/02/27 11:20:39.000.633,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadPaciente.dfm=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+    <Transaction>2023/02/27 11:20:49.000.107,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadPacientes.pas=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadPaciente.pas</Transaction>
+    <Transaction>2023/02/27 11:20:49.000.107,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadPacientes.dfm=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadPaciente.dfm</Transaction>
+    <Transaction>2023/02/27 11:21:17.000.225,=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/27 11:21:41.000.478,=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2023/02/27 11:22:11.000.046,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadAgendamentos.pas=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>2023/02/27 11:22:11.000.046,C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\unitCadAgendamentos.dfm=C:\Users\Softnew Informática\Documents\Embarcadero\Studio\Projects\Unit4.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
