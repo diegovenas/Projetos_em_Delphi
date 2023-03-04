@@ -1,7 +1,7 @@
 object formPrincipal: TformPrincipal
   Left = 0
   Top = 0
-  Caption = 'Sistema de Cl'#237'nica M'#233'dica'
+  Caption = 'Serviço de Cl'#237'nica M'#233'dica'
   ClientHeight = 737
   ClientWidth = 1094
   Color = clWhite
