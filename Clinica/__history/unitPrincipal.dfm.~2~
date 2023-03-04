@@ -1,7 +1,7 @@
 object formPrincipal: TformPrincipal
   Left = 0
   Top = 0
-  Caption = 'Servi'#231'o de Cl'#237'nica M'#233'dica'
+  Caption = 'Serviço de Cl'#237'nica M'#233'dica'
   ClientHeight = 737
   ClientWidth = 1094
   Color = clWhite
@@ -739,8 +739,8 @@ object formPrincipal: TformPrincipal
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000000000000000000000000000000000000000000001FFD9}
-    ExplicitLeft = -2
-    ExplicitTop = 103
+    ExplicitLeft = 8
+    ExplicitTop = 110
   end
   object Panel1: TPanel
     Left = 0
@@ -749,13 +749,14 @@ object formPrincipal: TformPrincipal
     Height = 105
     Align = alTop
     TabOrder = 0
+    ExplicitWidth = 427
     object BitBtn1: TBitBtn
       Left = 1
       Top = 1
       Width = 80
       Height = 103
       Align = alLeft
-      Caption = 'Cliente'
+      Caption = 'Pacientes'
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B0000C40E0000C40E00000000000000000000FFFFFFFFFFFF
@@ -978,8 +979,6 @@ object formPrincipal: TformPrincipal
       Layout = blGlyphTop
       TabOrder = 0
       OnClick = BitBtn1Click
-      ExplicitLeft = 3
-      ExplicitTop = -1
     end
     object BitBtn2: TBitBtn
       Left = 81

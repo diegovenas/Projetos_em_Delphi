@@ -755,7 +755,7 @@ object formPrincipal: TformPrincipal
       Width = 80
       Height = 103
       Align = alLeft
-      Caption = 'Cliente'
+      Caption = 'Pacientes'
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B0000C40E0000C40E00000000000000000000FFFFFFFFFFFF
@@ -978,8 +978,6 @@ object formPrincipal: TformPrincipal
       Layout = blGlyphTop
       TabOrder = 0
       OnClick = BitBtn1Click
-      ExplicitLeft = 3
-      ExplicitTop = -1
     end
     object BitBtn2: TBitBtn
       Left = 81
