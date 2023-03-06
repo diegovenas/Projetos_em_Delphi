@@ -1,0 +1,49 @@
+unit unitCadPacientes;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.StdCtrls, Vcl.Mask,
+  Vcl.DBCtrls, Vcl.ExtCtrls, Data.DB, Vcl.Grids, Vcl.DBGrids;
+
+type
+  TformCadPacientes = class(TForm)
+    Panel1: TPanel;
+    Label2: TLabel;
+    editID: TDBEdit;
+    editCPF: TDBEdit;
+    editNOME: TDBEdit;
+    editDATA: TDBEdit;
+    editCELULAR: TDBEdit;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    DBGrid1: TDBGrid;
+    txtBusca: TEdit;
+    Label5: TLabel;
+    Label1: TLabel;
+    DBNavigator1: TDBNavigator;
+    procedure txtBuscaChange(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  formCadPacientes: TformCadPacientes;
+
+implementation
+
+{$R *.dfm}
+
+uses unitDM;
+
+procedure TformCadPacientes.txtBuscaChange(Sender: TObject);
+begin
+  DM.tbPaciente.Locate('nome', txtBusca.text, [loPartialKey]);
+end;
+
+end.

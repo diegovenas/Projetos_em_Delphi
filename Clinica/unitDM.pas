@@ -28,7 +28,10 @@ type
     tbAgendamentohora: TStringField;
     tbAgendamentoespecialidade: TStringField;
     tbAgendamentomedico: TStringField;
+    FDpesquisaPaciente: TFDQuery;
+    dsPesquisa: TDataSource;
     procedure tbPacienteAfterInsert(DataSet: TDataSet);
+    procedure tbPacienteBeforePost(DataSet: TDataSet);
   private
     { Private declarations }
   public
@@ -48,6 +51,14 @@ procedure TDM.tbPacienteAfterInsert(DataSet: TDataSet);
 begin
   tbPacientedata_cadastro.Value := Date();
 
+end;
+
+procedure TDM.tbPacienteBeforePost(DataSet: TDataSet);
+begin
+ DM.FDpesquisaPaciente.Close;
+ DM.FDpesquisaPaciente.Sql.Clear;
+ DM.FDpesquisaPaciente.Sql.Add('Select * from paciente');
+ DM.FDpesquisaPaciente.open;
 end;
 
 end.

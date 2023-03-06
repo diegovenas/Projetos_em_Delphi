@@ -14,6 +14,7 @@ object formCadPacientes: TformCadPacientes
   Font.Style = []
   OldCreateOrder = False
   Position = poScreenCenter
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object Label2: TLabel
@@ -138,13 +139,14 @@ object formCadPacientes: TformCadPacientes
     Top = 159
     Width = 290
     Height = 321
-    DataSource = DM.dsPaciente
+    DataSource = DM.dsPesquisa
     TabOrder = 6
     TitleFont.Charset = DEFAULT_CHARSET
     TitleFont.Color = clWindowText
     TitleFont.Height = -11
     TitleFont.Name = 'Tahoma'
     TitleFont.Style = []
+    OnCellClick = DBGrid1CellClick
     Columns = <
       item
         Alignment = taCenter

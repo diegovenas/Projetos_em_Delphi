@@ -26,6 +26,8 @@ type
     Label1: TLabel;
     DBNavigator1: TDBNavigator;
     procedure txtBuscaChange(Sender: TObject);
+    procedure FormShow(Sender: TObject);
+    procedure DBGrid1CellClick(Column: TColumn);
   private
     { Private declarations }
   public
@@ -41,9 +43,26 @@ implementation
 
 uses unitDM;
 
+procedure TformCadPacientes.DBGrid1CellClick(Column: TColumn);
+begin
+ DM.tbPaciente.Locate('id', DM.FDpesquisaPaciente.fieldbyname('id').Asinteger,[] );
+end;
+
+procedure TformCadPacientes.FormShow(Sender: TObject);
+begin
+ DM.FDpesquisaPaciente.Close;
+ DM.FDpesquisaPaciente.Sql.Clear;
+ DM.FDpesquisaPaciente.Sql.Add('Select * from paciente');
+ DM.FDpesquisaPaciente.open;
+end;
+
 procedure TformCadPacientes.txtBuscaChange(Sender: TObject);
 begin
-  DM.tbPaciente.Locate('nome', txtBusca.text, [loPartialKey]);
+//  DM.tbPaciente.Locate('nome', txtBusca.text, [loPartialKey]);
+ DM.FDpesquisaPaciente.Close;
+ DM.FDpesquisaPaciente.Sql.Clear;
+ DM.FDpesquisaPaciente.Sql.Add('Select * from paciente where nome like '+QuotedStr(txtBusca.Text+'%' )  );
+ DM.FDpesquisaPaciente.open;
 end;
 
 end.
