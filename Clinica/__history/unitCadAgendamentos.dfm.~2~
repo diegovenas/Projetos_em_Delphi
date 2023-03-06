@@ -1,0 +1,156 @@
+object formCadAgendamentos: TformCadAgendamentos
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Agendamentos'
+  ClientHeight = 492
+  ClientWidth = 710
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poScreenCenter
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label2: TLabel
+    Left = 24
+    Top = 113
+    Width = 11
+    Height = 13
+    Caption = 'ID'
+  end
+  object Label3: TLabel
+    Left = 88
+    Top = 113
+    Width = 75
+    Height = 13
+    Caption = 'Nome Completo'
+  end
+  object Label4: TLabel
+    Left = 24
+    Top = 201
+    Width = 23
+    Height = 13
+    Caption = 'Hora'
+  end
+  object Label5: TLabel
+    Left = 24
+    Top = 174
+    Width = 23
+    Height = 13
+    Caption = 'Data'
+  end
+  object Label6: TLabel
+    Left = 24
+    Top = 228
+    Width = 64
+    Height = 13
+    Caption = 'Especialidade'
+  end
+  object Label7: TLabel
+    Left = 22
+    Top = 265
+    Width = 78
+    Height = 13
+    Caption = 'Nome do M'#233'dico'
+  end
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 710
+    Height = 89
+    Align = alTop
+    TabOrder = 0
+    ExplicitLeft = -49
+    ExplicitWidth = 666
+    object Label1: TLabel
+      Left = 24
+      Top = 36
+      Width = 156
+      Height = 25
+      Caption = 'Agendamentos'
+      Font.Charset = DEFAULT_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -21
+      Font.Name = 'Tahoma'
+      Font.Style = [fsBold]
+      ParentFont = False
+    end
+  end
+  object DBNavigator1: TDBNavigator
+    Left = 307
+    Top = 28
+    Width = 310
+    Height = 33
+    DataSource = DM.dsAgendamento
+    TabOrder = 1
+  end
+  object editID: TDBEdit
+    Left = 24
+    Top = 132
+    Width = 25
+    Height = 21
+    DataField = 'id'
+    DataSource = DM.dsAgendamento
+    TabOrder = 2
+  end
+  object DBLookupComboBox1: TDBLookupComboBox
+    Left = 88
+    Top = 132
+    Width = 281
+    Height = 21
+    DataField = 'id_paciente'
+    DataSource = DM.dsAgendamento
+    KeyField = 'id'
+    ListField = 'nome'
+    ListSource = DM.dsPaciente
+    TabOrder = 3
+  end
+  object DBEdit1: TDBEdit
+    Left = 53
+    Top = 198
+    Width = 68
+    Height = 21
+    DataField = 'hora'
+    DataSource = DM.dsAgendamento
+    TabOrder = 4
+  end
+  object DBEdit2: TDBEdit
+    Left = 53
+    Top = 171
+    Width = 68
+    Height = 21
+    DataField = 'data'
+    DataSource = DM.dsAgendamento
+    TabOrder = 5
+  end
+  object DBEdit3: TDBEdit
+    Left = 106
+    Top = 262
+    Width = 207
+    Height = 21
+    DataField = 'medico'
+    DataSource = DM.dsAgendamento
+    TabOrder = 6
+  end
+  object DBComboBox1: TDBComboBox
+    Left = 128
+    Top = 225
+    Width = 145
+    Height = 21
+    DataField = 'especialidade'
+    DataSource = DM.dsAgendamento
+    Items.Strings = (
+      'Cardiologia'
+      'Nutricionista'
+      'Cardiologia'
+      'Nutricionista'
+      'Cardiologia'
+      'Nutricionista')
+    TabOrder = 7
+  end
+end

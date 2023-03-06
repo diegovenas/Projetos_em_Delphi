@@ -1,0 +1,38 @@
+object DM: TDM
+  OldCreateOrder = False
+  Height = 431
+  Width = 395
+  object conexao: TFDConnection
+    Params.Strings = (
+      'Database=clinica'
+      'User_Name=root'
+      'DriverID=MySQL')
+    Connected = True
+    Left = 16
+    Top = 16
+  end
+  object tbPaciente: TFDTable
+    IndexFieldNames = 'id'
+    Connection = conexao
+    TableName = 'clinica.paciente'
+    Left = 88
+    Top = 16
+  end
+  object tbAgendamento: TFDTable
+    IndexFieldNames = 'id'
+    Connection = conexao
+    TableName = 'clinica.agendamento'
+    Left = 160
+    Top = 24
+  end
+  object dsPaciente: TDataSource
+    DataSet = tbPaciente
+    Left = 88
+    Top = 72
+  end
+  object dsAgendamento: TDataSource
+    DataSet = tbAgendamento
+    Left = 168
+    Top = 72
+  end
+end

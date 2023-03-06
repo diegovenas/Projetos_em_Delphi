@@ -1,9 +1,9 @@
 object formPrincipal: TformPrincipal
   Left = 0
   Top = 0
-  Caption = 'Serviço de Cl'#237'nica M'#233'dica'
-  ClientHeight = 737
-  ClientWidth = 1094
+  Caption = 'Sistema de Cl'#237'nica M'#233'dica'
+  ClientHeight = 480
+  ClientWidth = 675
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -20,8 +20,8 @@ object formPrincipal: TformPrincipal
     AlignWithMargins = True
     Left = 3
     Top = 108
-    Width = 1088
-    Height = 626
+    Width = 669
+    Height = 369
     Align = alClient
     Center = True
     Picture.Data = {
@@ -739,13 +739,15 @@ object formPrincipal: TformPrincipal
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000000000000000000000000000000000000000000001FFD9}
-    ExplicitLeft = 8
+    ExplicitLeft = 1
     ExplicitTop = 110
+    ExplicitWidth = 842
+    ExplicitHeight = 595
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1094
+    Width = 675
     Height = 105
     Align = alTop
     TabOrder = 0

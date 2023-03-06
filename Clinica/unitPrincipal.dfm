@@ -1,9 +1,9 @@
 object formPrincipal: TformPrincipal
   Left = 0
   Top = 0
-  Caption = 'Servi'#231'o de Cl'#237'nica M'#233'dica'
-  ClientHeight = 737
-  ClientWidth = 1094
+  Caption = 'Clinca Famiy'
+  ClientHeight = 491
+  ClientWidth = 664
   Color = clWhite
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -20,8 +20,8 @@ object formPrincipal: TformPrincipal
     AlignWithMargins = True
     Left = 3
     Top = 108
-    Width = 1088
-    Height = 626
+    Width = 658
+    Height = 380
     Align = alClient
     Center = True
     Picture.Data = {
@@ -739,13 +739,15 @@ object formPrincipal: TformPrincipal
       0000000000000000000000000000000000000000000000000000000000000000
       0000000000000000000000000000000000000000000000000000000000000000
       000000000000000000000000000000000000000000000000000001FFD9}
-    ExplicitLeft = -2
-    ExplicitTop = 103
+    ExplicitLeft = 1
+    ExplicitTop = 110
+    ExplicitWidth = 842
+    ExplicitHeight = 595
   end
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 1094
+    Width = 664
     Height = 105
     Align = alTop
     TabOrder = 0
@@ -755,7 +757,7 @@ object formPrincipal: TformPrincipal
       Width = 80
       Height = 103
       Align = alLeft
-      Caption = 'Cliente'
+      Caption = 'Pacientes'
       Glyph.Data = {
         361B0000424D361B000000000000360000002800000030000000300000000100
         180000000000001B0000C40E0000C40E00000000000000000000FFFFFFFFFFFF
@@ -978,8 +980,6 @@ object formPrincipal: TformPrincipal
       Layout = blGlyphTop
       TabOrder = 0
       OnClick = BitBtn1Click
-      ExplicitLeft = 3
-      ExplicitTop = -1
     end
     object BitBtn2: TBitBtn
       Left = 81
