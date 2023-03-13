@@ -1,0 +1,57 @@
+object dm_dados: Tdm_dados
+  OldCreateOrder = False
+  Height = 229
+  Width = 325
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Softnew\MedNews\Dados\MEDNEWS.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'Server=LOCALHOST'
+      'Port=3050'
+      'DriverID=fB')
+    Connected = True
+    LoginPrompt = False
+    Left = 40
+    Top = 32
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    VendorLib = 'C:\Program Files\Firebird\Firebird_2_5\WOW64\fbclient.dll'
+    Left = 144
+    Top = 32
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 248
+    Top = 32
+  end
+  object QueryEmpresa: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT EMP_CODIGO, EMP_FANTASIA FROM EMPRESA')
+    Left = 40
+    Top = 104
+    object QueryEmpresaEMP_FANTASIA: TStringField
+      FieldName = 'EMP_FANTASIA'
+      Origin = 'EMP_FANTASIA'
+      Size = 50
+    end
+  end
+  object QueryFuncionario: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT F.FUN_CODIGO, F.FUN_NOME,F.fun_tipo from FUNCIONARIO F;')
+    Left = 40
+    Top = 160
+    object QueryFuncionarioFUN_NOME: TStringField
+      FieldName = 'FUN_NOME'
+      Origin = 'FUN_NOME'
+      Size = 50
+    end
+    object QueryFuncionarioFUN_TIPO: TStringField
+      FieldName = 'FUN_TIPO'
+      Origin = 'FUN_TIPO'
+      Size = 30
+    end
+  end
+end

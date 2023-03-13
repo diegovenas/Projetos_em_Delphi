@@ -1,0 +1,54 @@
+unit TelaSecundaria;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants,
+  System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TObservacoes = class(TForm)
+    Panel1: TPanel;
+    Panel2: TPanel;
+    Label1: TLabel;
+    Panel3: TPanel;
+    ObsEsc: TRadioGroup;
+    Memo1: TMemo;
+    Memo2: TMemo;
+    procedure ObsEscClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Observacoes: TObservacoes;
+
+implementation
+
+{$R *.dfm}
+
+procedure TObservacoes.ObsEscClick(Sender: TObject);
+
+var
+  memo: TMemo;
+  Escolha: String;
+
+begin
+  Escolha := ObsEsc.tostring;
+
+  if Escolha = 'Sim, Gostaria' then
+  begin
+    Memo1 := TMemo.Create(Self);
+    Memo1.Parent := Self;
+    Memo1.Top := 24;
+    Memo1.Left := 32;
+    Memo1.Width := 273;
+    Memo1.Height := 105;
+  end;
+
+end;
+
+end.

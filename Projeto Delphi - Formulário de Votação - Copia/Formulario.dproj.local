@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/02/10 15:51:13.000.436,=C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/16 15:17:40.000.456,=C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/23 08:06:16.000.656,=C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/02/23 17:44:49.000.236,=C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/10 10:38:42.000.061,=C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/03/10 10:39:27.000.675,C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\TelaPrincipal.pas</Transaction>
+    <Transaction>2023/03/10 10:39:27.000.675,C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\TelaPrincipal.dfm</Transaction>
+    <Transaction>2023/03/10 10:39:42.000.145,C:\Users\Murilo Barreto\Documents\Embarcadero\Studio\Projects\Project2.dproj=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Formulario.dproj</Transaction>
+    <Transaction>2023/03/11 21:33:56.000.676,=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Unit1.pas</Transaction>
+    <Transaction>2023/03/11 21:36:39.000.003,C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\TelaSecundaria.pas=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Unit1.pas</Transaction>
+    <Transaction>2023/03/11 21:36:39.000.003,C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\TelaSecundaria.dfm=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Unit1.dfm</Transaction>
+    <Transaction>2023/03/12 15:17:27.000.031,=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Unit1.pas</Transaction>
+    <Transaction>2023/03/12 15:25:00.000.574,C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Conexaobanco.pas=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Unit1.pas</Transaction>
+    <Transaction>2023/03/12 15:25:00.000.574,C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Conexaobanco.dfm=C:\Users\Murilo Barreto\Desktop\Projeto Delphi - Formulário de Votação\Unit1.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

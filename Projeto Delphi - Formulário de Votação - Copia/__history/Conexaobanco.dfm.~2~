@@ -1,0 +1,32 @@
+object dm_dados: Tdm_dados
+  OldCreateOrder = False
+  Height = 229
+  Width = 325
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'Database=C:\Softnew\MedNews\Dados\MEDNEWS.FDB'
+      'User_Name=SYSDBA'
+      'Password=masterkey'
+      'Server=LOCALHOST'
+      'Port=3050'
+      'DriverID=fB')
+    LoginPrompt = False
+    Left = 40
+    Top = 32
+  end
+  object FDPhysFBDriverLink1: TFDPhysFBDriverLink
+    VendorLib = 'C:\Program Files\Firebird\Firebird_2_5\bin\fbclient.dll'
+    Left = 144
+    Top = 32
+  end
+  object FDGUIxWaitCursor1: TFDGUIxWaitCursor
+    Provider = 'Forms'
+    Left = 144
+    Top = 136
+  end
+  object QueryBancos: TFDQuery
+    Connection = FDConnection1
+    Left = 248
+    Top = 88
+  end
+end

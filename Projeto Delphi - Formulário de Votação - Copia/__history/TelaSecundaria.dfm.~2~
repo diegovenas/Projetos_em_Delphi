@@ -1,0 +1,73 @@
+object Observacoes: TObservacoes
+  Left = 0
+  Top = 0
+  BorderIcons = [biSystemMenu]
+  Caption = 'Observa'#231#245'es'
+  ClientHeight = 332
+  ClientWidth = 447
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Panel1: TPanel
+    Left = 0
+    Top = 0
+    Width = 447
+    Height = 49
+    Align = alTop
+    TabOrder = 0
+    object Label1: TLabel
+      Left = 56
+      Top = 10
+      Width = 320
+      Height = 23
+      Caption = 'Voc'#234' gostaria de deixar alguma observa'#231#227'o? '
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -19
+      Font.Name = 'Arial Narrow'
+      Font.Style = []
+      ParentFont = False
+    end
+  end
+  object Panel2: TPanel
+    Left = 0
+    Top = 49
+    Width = 447
+    Height = 136
+    Align = alTop
+    TabOrder = 1
+    object RadioGroup1: TRadioGroup
+      Left = 1
+      Top = 1
+      Width = 445
+      Height = 134
+      Align = alClient
+      Items.Strings = (
+        'Sim, gostaria. '
+        'N'#227'o, N'#227'o gostaria.')
+      TabOrder = 0
+      ExplicitLeft = 32
+      ExplicitTop = 6
+      ExplicitWidth = 137
+      ExplicitHeight = 105
+    end
+  end
+  object Panel3: TPanel
+    Left = 0
+    Top = 185
+    Width = 447
+    Height = 147
+    Align = alClient
+    TabOrder = 2
+    ExplicitLeft = 176
+    ExplicitTop = 216
+    ExplicitWidth = 185
+    ExplicitHeight = 41
+  end
+end
