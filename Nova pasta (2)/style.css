@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.topo {
+  background-color: pink;
+
+  height: 9%;
+  width: 100%;
+
+  background: rgb(235, 33, 203);
+  background: linear-gradient(
+    0deg,
+    rgba(235, 33, 203, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.topo > h1 {
+  text-align: center;
+  /* margin: auto; */
+  color: white;
+}
+
+.topo > .menus {
+  width: 80%;
+  margin: 38px auto;
+}
+
+.topo > .menus > ul {
+  display: flex;
+  justify-content: space-around;
+
+  list-style: none;
+  color: white;
+}
+
+.topo > .menus > ul > li {
+  color: white;
+  background-color: rgba(255, 0, 0, 0.356);
+  padding: 5px;
+
+  border-radius: 5px;
+}
+
+.topVendas {
+  background-color: rgba(0, 0, 0, 0.295);
+  border-radius: 10px;
+
+  width: 90%;
+  height: 80%;
+  margin: 20px auto 0;
+}
+
+.topVendas > .tiposCaixa {
+  background-color: aqua;
+  border-radius: 10px 10px 0 0;
+  padding: 10px;
+}
+
+.topVendas > .tiposCaixa > ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.topVendas > .tiposCaixa > ul > li {
+  width: 20%;
+  text-align: center;
+
+  background-color: rgba(0, 0, 0, 0.644);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.descricaoCaixa {
+  transition: 0.4s;
+  text-align: center;
+  margin: auto;
+  background-color: yellow;
+  width: 35%;
+  height: 3.5%;
+  border-radius: 0 0 10px 10px;
+  display: none;
+}
+
+.descricaoCaixa:hover{
+  background-color: black;
+  transition: 0.4s;
+
+}
+
+.caixasDisponiveis {
+  width: 100%;
+  height: 90%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: center;
+  align-items: center;
+}
+.caixa {
+  width: 150px;
+  height: 200px;
+  border: 3px solid black;
+  margin: 10px;
+}
